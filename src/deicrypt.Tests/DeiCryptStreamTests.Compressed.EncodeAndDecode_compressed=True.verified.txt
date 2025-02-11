@@ -1,0 +1,6 @@
+﻿{
+  inputText: NSA,
+  outputText: NSA,
+  equal: true,
+  compressed: true
+}

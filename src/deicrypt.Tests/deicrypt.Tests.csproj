@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="coverlet.collector">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" />
+    <PackageReference Include="NUnit" />
+    <PackageReference Include="NUnit.Analyzers">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="NUnit3TestAdapter" />
+    <PackageReference Include="Spectre.IO.Testing" />
+    <PackageReference Include="verify.Nunit" />
+  </ItemGroup>
+  <ItemGroup>
+    <Using Include="NUnit.Framework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\deicrypt.Core\deicrypt.Core.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="DeiCryptTests.Encode.verified.txt">
+      <DependentUpon>DeiCryptTests.cs</DependentUpon>
+    </None>
+    <None Update="DeiCryptTests.Decode.verified.txt">
+      <DependentUpon>DeiCryptTests.cs</DependentUpon>
+    </None>
+  </ItemGroup>
+</Project>

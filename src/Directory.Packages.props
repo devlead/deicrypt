@@ -1,0 +1,20 @@
+<Project>
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <CentralPackageTransitivePinningEnabled>true</CentralPackageTransitivePinningEnabled>
+    <NoWarn>$(NoWarn);NU1507</NoWarn>
+    <PackAsTool>true</PackAsTool>
+    <ToolCommandName>deicrypt</ToolCommandName>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageVersion Include="coverlet.collector" Version="6.0.4" />
+    <PackageVersion Include="Devlead.Console" Version="2025.1.20.36" />
+    <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.13.0" />
+    <PackageVersion Include="NUnit" Version="4.3.2" />
+    <PackageVersion Include="NUnit.Analyzers" Version="4.6.0" />
+    <PackageVersion Include="NUnit3TestAdapter" Version="5.0.0" />
+    <PackageVersion Include="Spectre.IO" Version="0.18.0" />
+    <PackageVersion Include="Spectre.IO.Testing" Version="0.18.0" />
+    <PackageVersion Include="verify.Nunit" Version="28.10.1" />
+  </ItemGroup>
+</Project>

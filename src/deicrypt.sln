@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "deicrypt.Core", "deicrypt.Core\deicrypt.Core.csproj", "{196527A1-9C8B-4113-AC48-4F4F2629B083}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "deicrypt.Tests", "deicrypt.Tests\deicrypt.Tests.csproj", "{0348C5C6-21E9-43A0-B481-203FEF063CEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "deicrypt", "deicrypt\deicrypt.csproj", "{7DC423CD-B9F2-43FB-89A8-51C5008CF737}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{196527A1-9C8B-4113-AC48-4F4F2629B083}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{196527A1-9C8B-4113-AC48-4F4F2629B083}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{196527A1-9C8B-4113-AC48-4F4F2629B083}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{196527A1-9C8B-4113-AC48-4F4F2629B083}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0348C5C6-21E9-43A0-B481-203FEF063CEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0348C5C6-21E9-43A0-B481-203FEF063CEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0348C5C6-21E9-43A0-B481-203FEF063CEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0348C5C6-21E9-43A0-B481-203FEF063CEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DC423CD-B9F2-43FB-89A8-51C5008CF737}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DC423CD-B9F2-43FB-89A8-51C5008CF737}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DC423CD-B9F2-43FB-89A8-51C5008CF737}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DC423CD-B9F2-43FB-89A8-51C5008CF737}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
