@@ -11,7 +11,7 @@
     <PackageVersion Include="Devlead.Console" Version="2025.6.11.218" />
     <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.14.1" />
     <PackageVersion Include="NUnit" Version="4.3.2" />
-    <PackageVersion Include="NUnit.Analyzers" Version="4.9.0" />
+    <PackageVersion Include="NUnit.Analyzers" Version="4.9.1" />
     <PackageVersion Include="NUnit3TestAdapter" Version="5.0.0" />
     <PackageVersion Include="Spectre.IO" Version="0.18.0" />
     <PackageVersion Include="Spectre.IO.Testing" Version="0.18.0" />
