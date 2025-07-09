@@ -8,13 +8,13 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageVersion Include="coverlet.collector" Version="6.0.4" />
-    <PackageVersion Include="Devlead.Console" Version="2025.6.11.215" />
+    <PackageVersion Include="Devlead.Console" Version="2025.7.9.244" />
     <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.14.1" />
     <PackageVersion Include="NUnit" Version="4.3.2" />
-    <PackageVersion Include="NUnit.Analyzers" Version="4.8.1" />
+    <PackageVersion Include="NUnit.Analyzers" Version="4.9.2" />
     <PackageVersion Include="NUnit3TestAdapter" Version="5.0.0" />
     <PackageVersion Include="Spectre.IO" Version="0.18.0" />
     <PackageVersion Include="Spectre.IO.Testing" Version="0.18.0" />
-    <PackageVersion Include="verify.Nunit" Version="30.3.1" />
+    <PackageVersion Include="verify.Nunit" Version="30.4.0" />
   </ItemGroup>
 </Project>
