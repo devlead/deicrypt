@@ -15,6 +15,6 @@
     <PackageVersion Include="NUnit3TestAdapter" Version="5.0.0" />
     <PackageVersion Include="Spectre.IO" Version="0.19.0" />
     <PackageVersion Include="Spectre.IO.Testing" Version="0.19.0" />
-    <PackageVersion Include="verify.Nunit" Version="30.5.0" />
+    <PackageVersion Include="verify.Nunit" Version="30.6.1" />
   </ItemGroup>
 </Project>
