@@ -5,7 +5,7 @@ namespace deicrypt;
 
 public class DecodeCommand(ILogger<DecodeCommand> logger, FileSystem fileSystem) : AsyncCommand<DecodeSettings>
 {
-    public override async Task<int> ExecuteAsync(CommandContext context, DecodeSettings settings)
+    public override async Task<int> ExecuteAsync(CommandContext context, DecodeSettings settings, CancellationToken cancellationToken)
     {
         logger.LogInformation("Decoding from {Input} to {Output}...", settings.Input, settings.Output);
 

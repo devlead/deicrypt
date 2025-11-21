@@ -5,7 +5,7 @@ namespace deicrypt;
 
 public class EncodeCommand(ILogger<EncodeCommand> logger, FileSystem fileSystem) : AsyncCommand<EncodeSettings>
 {
-    public override async Task<int> ExecuteAsync(CommandContext context, EncodeSettings settings)
+    public override async Task<int> ExecuteAsync(CommandContext context, EncodeSettings settings, CancellationToken cancellationToken)
     {
         logger.LogInformation("Encoding from {Input} to {Output}...", settings.Input, settings.Output);
 
