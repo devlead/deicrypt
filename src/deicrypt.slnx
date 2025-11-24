@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="deicrypt.Core/deicrypt.Core.csproj" />
+  <Project Path="deicrypt.Tests/deicrypt.Tests.csproj" />
+  <Project Path="deicrypt/deicrypt.csproj" />
+</Solution>
