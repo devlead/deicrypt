@@ -10,7 +10,7 @@ public class DeiCryptStreamTests
     public async Task Encode()
     {
         // Given
-        var fileSystem = new FakeFileSystem(FakeEnvironment.CreateMacOSEnvironment());
+        var fileSystem = new FakeFileSystem(FakeEnvironment.CreateMacOsEnvironment());
         var inputFile = fileSystem.CreateFile("/plain.txt", "NSA"u8.ToArray());
         var outputFile = fileSystem.CreateFile("/encoded.ally");
 
@@ -29,7 +29,7 @@ public class DeiCryptStreamTests
     public async Task Decode()
     {
         // Given
-        var fileSystem = new FakeFileSystem(FakeEnvironment.CreateMacOSEnvironment());
+        var fileSystem = new FakeFileSystem(FakeEnvironment.CreateMacOsEnvironment());
         var inputFile = fileSystem.CreateFile("/encoded.ally", "Allyship            Pronouns            Bias                Allyship            Allyship            Gender              "u8.ToArray());
         var outputFile = fileSystem.CreateFile("/plain.txt");
         var deiCrypt = new Core.DeiCrypt();
@@ -50,7 +50,7 @@ public class DeiCryptStreamTests
         public async Task Encode(bool compress)
         {
             // Given
-            var fileSystem = new FakeFileSystem(FakeEnvironment.CreateMacOSEnvironment());
+            var fileSystem = new FakeFileSystem(FakeEnvironment.CreateMacOsEnvironment());
             var inputFile = fileSystem.CreateFile("/plain.txt", "NSA"u8.ToArray());
             var outputFile = fileSystem.CreateFile("/encoded.ally");
             var deiCrypt = new Core.DeiCrypt();
@@ -70,7 +70,7 @@ public class DeiCryptStreamTests
         public async Task EncodeAndDecode(bool compressed)
         {
             // Given
-            var fileSystem = new FakeFileSystem(FakeEnvironment.CreateMacOSEnvironment());
+            var fileSystem = new FakeFileSystem(FakeEnvironment.CreateMacOsEnvironment());
             var inputFile = fileSystem.CreateFile("/plain.txt", "NSA"u8.ToArray());
             var interimFile = fileSystem.CreateFile("/encoded.ally");
             var outputFile = fileSystem.CreateFile("/decoded.txt");
