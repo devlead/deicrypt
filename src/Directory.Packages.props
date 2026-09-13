@@ -5,6 +5,8 @@
     <NoWarn>$(NoWarn);NU1507</NoWarn>
     <PackAsTool>true</PackAsTool>
     <ToolCommandName>deicrypt</ToolCommandName>
+    <Verify_SponsorshipExemption>OpenSource</Verify_SponsorshipExemption>
+    <Verify_SponsorshipExemptionUntil>$([System.DateTime]::UtcNow.AddMonths(6).ToString('yyyy-MM'))</Verify_SponsorshipExemptionUntil>
   </PropertyGroup>
   <ItemGroup>
     <PackageVersion Include="coverlet.collector" Version="10.0.1" />
