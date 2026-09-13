@@ -5,6 +5,8 @@
     <NoWarn>$(NoWarn);NU1507</NoWarn>
     <PackAsTool>true</PackAsTool>
     <ToolCommandName>deicrypt</ToolCommandName>
+    <Verify_SponsorshipExemption>OpenSource</Verify_SponsorshipExemption>
+    <Verify_SponsorshipExemptionUntil>$([System.DateTime]::UtcNow.AddMonths(6).ToString('yyyy-MM'))</Verify_SponsorshipExemptionUntil>
   </PropertyGroup>
   <ItemGroup>
     <PackageVersion Include="coverlet.collector" Version="10.0.1" />
@@ -15,6 +17,6 @@
     <PackageVersion Include="NUnit3TestAdapter" Version="6.3.0" />
     <PackageVersion Include="Spectre.IO" Version="0.23.0" />
     <PackageVersion Include="Spectre.IO.Testing" Version="0.23.0" />
-    <PackageVersion Include="verify.Nunit" Version="32.0.1" />
+    <PackageVersion Include="verify.Nunit" Version="33.0.0" />
   </ItemGroup>
 </Project>
