@@ -5,16 +5,18 @@
     <NoWarn>$(NoWarn);NU1507</NoWarn>
     <PackAsTool>true</PackAsTool>
     <ToolCommandName>deicrypt</ToolCommandName>
+    <Verify_SponsorshipExemption>OpenSource</Verify_SponsorshipExemption>
+    <Verify_SponsorshipExemptionUntil>$([System.DateTime]::UtcNow.AddMonths(6).ToString('yyyy-MM'))</Verify_SponsorshipExemptionUntil>
   </PropertyGroup>
   <ItemGroup>
-    <PackageVersion Include="coverlet.collector" Version="10.0.1" />
-    <PackageVersion Include="Devlead.Console" Version="2026.9.9.890" />
-    <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="18.10.0" />
-    <PackageVersion Include="NUnit" Version="4.6.1" />
-    <PackageVersion Include="NUnit.Analyzers" Version="4.14.0" />
-    <PackageVersion Include="NUnit3TestAdapter" Version="6.3.0" />
+    <PackageVersion Include="coverlet.collector" Version="10.1.0" />
+    <PackageVersion Include="Devlead.Console" Version="2026.10.9.943" />
+    <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="18.10.1" />
+    <PackageVersion Include="NUnit" Version="5.0.0" />
+    <PackageVersion Include="NUnit.Analyzers" Version="4.15.0" />
+    <PackageVersion Include="NUnit3TestAdapter" Version="6.3.1" />
     <PackageVersion Include="Spectre.IO" Version="0.23.0" />
     <PackageVersion Include="Spectre.IO.Testing" Version="0.23.0" />
-    <PackageVersion Include="verify.Nunit" Version="32.0.0" />
+    <PackageVersion Include="verify.Nunit" Version="33.3.3" />
   </ItemGroup>
 </Project>
