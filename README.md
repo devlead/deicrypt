@@ -1,5 +1,7 @@
 # deicrypt
 
+[![NuGet](https://img.shields.io/nuget/v/deicrypt.svg)](https://www.nuget.org/packages/deicrypt)
+
 `deicrypt` is a command-line tool designed for encoding and decoding files. Using using DEI-related terms padded by safe spaces. 
 
 ## Features
